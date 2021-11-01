@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>login.png</file>
+        <file>view.jpg</file>
+    </qresource>
+    <qresource prefix="/db">
+        <file>zavrsnibaza.db</file>
+    </qresource>
+</RCC>

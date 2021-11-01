@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>POSTANI MILIONAŠ</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+background-color: rgb(238, 251, 255);
+
+font: 8pt &quot;Fixedsys&quot;;
+
+selection-background-color: rgb(239, 231, 255);
+
+gridline-color: qradialgradient(spread:repeat, cx:0.5, cy:0.5, radius:0.077, fx:0.5, fy:0.5, stop:0 rgba(0, 169, 255, 147), stop:0.497326 rgba(0, 0, 0, 147), stop:1 rgba(0, 169, 255, 147));
+
+background-color: rgb(166, 202, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout_6">
+    <item>
+     <spacer name="horizontalSpacer_3">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="sizeConstraint">
+       <enum>QLayout::SetFixedSize</enum>
+      </property>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QPushButton" name="pitanje1">
+          <property name="font">
+           <font>
+            <family>Fixedsys</family>
+            <pointsize>8</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 0, 4);</string>
+          </property>
+          <property name="text">
+           <string>Pitanje 1</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pitanje6">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 0, 4);</string>
+          </property>
+          <property name="text">
+           <string>Pitanje 6</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pitanje11">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 0, 4);</string>
+          </property>
+          <property name="text">
+           <string>Pitanje 11</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pitanje16">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 0, 4);</string>
+          </property>
+          <property name="text">
+           <string>Pitanje 16</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pitanje21">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 0, 4);</string>
+          </property>
+          <property name="text">
+           <string>Pitanje 21</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QPushButton" name="pitanje2">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 255);</string>
+          </property>
+          <property name="text">
+           <string>Pitanje 2</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pitanje7">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 255);</string>
+          </property>
+          <property name="text">
+           <string>Pitanje 7</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pitanje12">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 255);</string>
+          </property>
+          <property name="text">
+           <string>Pitanje 12</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pitanje17">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 255);</string>
+          </property>
+          <property name="text">
+           <string>Pitanje 17</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pitanje22">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 255);</string>
+          </property>
+          <property name="text">
+           <string>Pitanje 22</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <item>
+         <widget class="QPushButton" name="pitanje3">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(22, 120, 11);</string>
+          </property>
+          <property name="text">
+           <string>Pitanje 3 </string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pitanje8">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(22, 120, 11);</string>
+          </property>
+          <property name="text">
+           <string>Pitanje 8</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pitanje13">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(22, 120, 11);</string>
+          </property>
+          <property name="text">
+           <string>Pitanje 13</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pitanje18">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(22, 120, 11);</string>
+          </property>
+          <property name="text">
+           <string>Pitanje18</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pitanje23">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(22, 120, 11);</string>
+          </property>
+          <property name="text">
+           <string>Pitanje 23</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item>
+         <widget class="QPushButton" name="pitanje4">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(226, 226, 0);</string>
+          </property>
+          <property name="text">
+           <string>Pitanje 4</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pitanje9">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(226, 226, 0);</string>
+          </property>
+          <property name="text">
+           <string>Pitanje 9</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pitanje14">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(226, 226, 0);</string>
+          </property>
+          <property name="text">
+           <string>Pitanje 14</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pitanje19">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(226, 226, 0);</string>
+          </property>
+          <property name="text">
+           <string>Pitanje 19</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pitanje24">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(226, 226, 0);</string>
+          </property>
+          <property name="text">
+           <string>Pitanje 24</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_5">
+        <item>
+         <widget class="QPushButton" name="pitanje5">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(177, 26, 157);</string>
+          </property>
+          <property name="text">
+           <string>Pitanje 5</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pitanje10">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(177, 26, 157);</string>
+          </property>
+          <property name="text">
+           <string>Pitanje 10</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pitanje15">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(177, 26, 157);</string>
+          </property>
+          <property name="text">
+           <string>Pitanje 15</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pitanje20">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(177, 26, 157);</string>
+          </property>
+          <property name="text">
+           <string>Pitanje 20</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pitanje25">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(177, 26, 157);</string>
+          </property>
+          <property name="text">
+           <string>Pitanje 25</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="ending">
+        <property name="text">
+         <string>Završi</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>:/img/enter.png</normaloff>:/img/enter.png</iconset>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <spacer name="horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>358</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QProgressBar" name="progressBar">
+          <property name="value">
+           <number>24</number>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu">
+    <property name="title">
+     <string>Opcije</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="actionLog_in"/>
+    <addaction name="actionPregled"/>
+   </widget>
+   <addaction name="menuMenu"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="separator"/>
+   <addaction name="actionPregled"/>
+   <addaction name="actionLog_in"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionLog_in">
+   <property name="icon">
+    <iconset>
+     <normaloff>login.png</normaloff>login.png</iconset>
+   </property>
+   <property name="text">
+    <string>Login</string>
+   </property>
+  </action>
+  <action name="actionPregled">
+   <property name="icon">
+    <iconset>
+     <normaloff>view.jpg</normaloff>view.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Pregled</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
