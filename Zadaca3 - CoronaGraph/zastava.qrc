@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/zastava">
+        <file>download.png</file>
+    </qresource>
+</RCC>
